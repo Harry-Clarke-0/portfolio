@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="script.js"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Harry Clarke</title>
+  </head>
+  <body>
+    <!--Navigation Bar Section -->
+    <div class="container pt-2">
+      <div class="row">
+        <div class="col-6 d-felx justify-content-start align-items-center">
+          <i class="fas fa-code fa-2x pb-3 nav-Icon"></i>
+          <h5 class="text-white d-inline pl-2">Harry Clarke</h5>
+        </div>
+
+        <div class="col-6 p-2">
+          <div class="row">
+            <!-- nav -->
+            <div class="col-3">
+              <a href="#about" class="text-white navigation-link">About</a>
+            </div>
+            <div class="col-3">
+              <a href="#projects" class="text-white navigation-link"
+                >Projects</a
+              >
+            </div>
+            <div class="col-3">
+              <a href="#Experience" class="text-white navigation-link"
+                >Experience</a
+              >
+            </div>
+            <div class="col-3">
+              <a href="#social" class="text-white navigation-link">Social</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Main Container Section-->
+    <div class="container">
+      <div class="row main-row">
+        <div class="col-6 margin-b">
+          <h2 class="text-white">Hello, I'm</h2>
+          <h1 class="m-heading b-heading">Harry Clarke</h1>
+          <h2 class="text-white">CIT Student at QUB.</h2>
+        </div>
+        <div class="col-6">
+          <img class="img-fluid pb-5" src="images/me.jpg" alt="me">
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="container p-5">
+      <div class="row">
+        <div class="col-6"></div>
+        <div class="col-6 pl-5 pt-5 pb-5">
+          <h1 class="b-heading">About me.</h1>
+          <p class="text-white">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+            magna tortor, lacinia fringilla rhoncus sed, venenatis congue ante.
+            Donec pharetra metus eget vehicula euismod. In sagittis eleifend
+            laoreet. Ut tempor, sem a consectetur elementum, purus enim feugiat
+            ex, quis ultrices turpis enim a arcu. Pellentesque massa magna,
+            maximus id sapien et, tempus egestas eros. Nam efficitur tempus
+            mauris in accumsan. Etiam fermentum lacus vel mi blandit egestas.
+            Nullam rutrum sit amet dolor in dictum. Aenean dignissim rutrum
+            tortor, non interdum libero facilisis aliquet. Sed lacinia
+            sollicitudin urna quis iaculis. Maecenas finibus auctor urna, non
+            porta odio congue sed. Morbi volutpat, nibh in lacinia tempor, dui
+            ante pellentesque urna, porttitor vehicula nisi augue vel velit.
+            Donec id tortor sed tortor porttitor semper. Cras sed dolor in orci
+            ornare pulvinar. Etiam at ultrices erat.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--Projects Section-->
+    <div id="projects" class="container mt-3 pt-3">
+      <h1 class="b-heading mb-3 pb-2">My Projects</h1>
+      <div class="row">
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem">
+            <img class="card-img-top project-img" src="" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">
+                Card title
+                <!--To be changed -->
+              </h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem">
+            <img class="card-img-top project-img" src="" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Card title<!-- To be changed --></h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem">
+            <img class="card-img-top project-img" src="" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Card title<!--To be changed--></h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">See Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience Section -->
+
+      <div id="Experience" class="container p-5">
+        <div class="row">
+          <div class="col-12 pt-5 pb-5 text-white">
+            <h1 class="b-heading mb-3 pb-2">Experience</h1>
+            <hr />
+          </div>
+        </div>
+      </div>
+
+    <div class="row pb-5">
+      <div class="col-5 text-white pr-5">
+        <h3>Queen's University Belfast</h3>
+        <i>Sep 2019 - Jul 2023</i>
+      </div>
+      <div class="col-7 text-white">
+        <h4>BSc Computing and Information Technology</h4>
+        <p class="text-white">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          magna tortor, lacinia fringilla rhoncus sed, venenatis congue ante.
+          Donec pharetra metus eget vehicula euismod. In sagittis eleifend
+          laoreet. Ut tempor, sem a consectetur elementum, purus enim feugiat
+          ex, quis ultrices turpis enim a arcu. Pellentesque massa magna,
+          maximus id sapien et, tempus egestas eros. Nam efficitur tempus
+          mauris in accumsan. Etiam fermentum lacus vel mi blandit egestas.
+          Nullam rutrum sit amet dolor in dictum. Aenean dignissim rutrum
+          tortor, non interdum libero facilisis aliquet. Sed lacinia
+          sollicitudin urna quis iaculis. Maecenas finibus auctor urna, non
+          porta odio congue sed. Morbi volutpat, nibh in lacinia tempor, dui
+          ante pellentesque urna, porttitor vehicula nisi augue vel velit.
+          Donec id tortor sed tortor porttitor semper. Cras sed dolor in orci
+          ornare pulvinar. Etiam at ultrices erat.
+        </p>
+      </div>
+    </div>
+    <div class="row pb-5">
+      <div class="col-5 text-white pr-5">
+        <h3>Northern Regional College</h3>
+        <i>Sep 2017 - Jul 2019</i>
+      </div>
+      <div class="col-7 text-white">
+        <h4>Level 3 National Extended Diploma in IT</h4>
+        <p class="text-white">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          magna tortor, lacinia fringilla rhoncus sed, venenatis congue ante.
+          Donec pharetra metus eget vehicula euismod. In sagittis eleifend
+          laoreet. Ut tempor, sem a consectetur elementum, purus enim feugiat
+          ex, quis ultrices turpis enim a arcu. Pellentesque massa magna,
+          maximus id sapien et, tempus egestas eros. Nam efficitur tempus
+          mauris in accumsan. Etiam fermentum lacus vel mi blandit egestas.
+          Nullam rutrum sit amet dolor in dictum. Aenean dignissim rutrum
+          tortor, non interdum libero facilisis aliquet. Sed lacinia
+          sollicitudin urna quis iaculis. Maecenas finibus auctor urna, non
+          porta odio congue sed. Morbi volutpat, nibh in lacinia tempor, dui
+          ante pellentesque urna, porttitor vehicula nisi augue vel velit.
+          Donec id tortor sed tortor porttitor semper. Cras sed dolor in orci
+          ornare pulvinar. Etiam at ultrices erat.
+        </p>
+      </div>
+    </div>
+    
+    <!--Social Media Section-->
+    <div id="social" class="container-fluid p-4">
+      <div class="container text-white">
+        <h4 class="b-heading">Social Media</h4>
+        <h1 class="m-heading">Connect with me.</h1>
+
+        <div class="row pt-5">
+          <div class="col-3 media-link btn" href="https://www.linkedin.com/in/harry-clarke-1171171a2/">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="pt-2 m-0 text-white">LinkedIn</h3>
+              </div>
+              <div class="col-6 justify-content-end">
+                <i class="fab fa-2x fa-linkedin-in text-secondary"></i>
+              </div>
+          </div>
+        </div>
+        <div class="col-3 media-link btn" href="https://github.com/Harry-Clarke-0">
+          <div class="row">
+            <div class="col-6 d-flex justify-content-start">
+              <h3 class="pt-2 m-0 text-white">Github</h3>
+            </div>
+            <div class="col-6 d-flex justify-content-end">
+              <i class="fab fa-2x fa-github text-secondary"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 media-link btn" href="#">
+          <div class="row">
+            <div class="col-6 d-flex justify-content-start">
+              <h3 class="pt-2 m-0 text-white">Instagram</h3>
+            </div>
+            <div class="col-6 d-flex justify-content-end">
+              <i class="fab fa-2x fa-instagram text-secondary"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 media-link btn-Cta" href="#">
+          <div class="row">
+            <div class="col-6 d-flex justify-content-start">
+              <h3 class="pt-2 m-0 text-white">Email</h3>
+            </div>
+            <div class="col-6 d-flex justify-content-end">
+              <i class="fas fa-2x fa-envelope text-secondary"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container text-muted pt-5 mt-5 text-center">
+        <h5>Copyright &copy; 2020 | <a href="#" class="text-white">Harry Clarke</a> </h5>
+      </div>
+    </footer>
+  </body>
+</html>
